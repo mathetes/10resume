@@ -1,17 +1,16 @@
 import Head from "next/head";
 import Layout from '../src/layout/Layout';
-import Main from '../src/layout/Main';
 
 
-export default function Home() {
+export default function Portfolio() {
   
   return (
     <div>
       <Head>
-        <title>Built on NEXT.JS</title>
+        <title>Резюме 10. Построенное на NEXT.JS</title>
       </Head>
       <Layout>
-        <Main />
+        <h2>My portfolio</h2>
       </Layout>
     </div>
   );

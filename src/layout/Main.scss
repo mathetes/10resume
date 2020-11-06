@@ -1,0 +1,20 @@
+body {
+  background-color: #fff;
+}
+.d-flex h2,
+p {
+  padding-left: 1rem;
+}
+
+.align-items-stretch {
+  -ms-flex-align: stretch !important;
+  align-items: stretch !important;
+}
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.p-2 {
+  width: 50%;
+}

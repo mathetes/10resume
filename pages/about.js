@@ -1,17 +1,15 @@
 import Head from "next/head";
 import Layout from '../src/layout/Layout';
-import Main from '../src/layout/Main';
 
-
-export default function Home() {
+export default function About() {
   
   return (
     <div>
       <Head>
-        <title>Built on NEXT.JS</title>
+        <title>About me</title>
       </Head>
       <Layout>
-        <Main />
+        <h2>Я React-developer</h2>
       </Layout>
     </div>
   );
