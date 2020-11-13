@@ -1,4 +1,4 @@
-const FlexboxInfo = () => (
+const Experience = () => (
     <>
         <div
             className="d-flex align-items-stretch bd-highlight example-parent"
@@ -11,7 +11,7 @@ const FlexboxInfo = () => (
                 </div>
                 <div className="name">
                     {' '}
-                    <h2> Front-end </h2>
+                    <h2> Miner technical colledge </h2>
                 </div>
                 <div className="desc">
                     <p>
@@ -27,7 +27,7 @@ const FlexboxInfo = () => (
                 </div>
                 <div className="name">
                     {' '}
-                    <h2> Back-end </h2>
+                    <h2> Theological seminary </h2>
                 </div>
                 <div className="desc">
                     <p>
@@ -44,4 +44,4 @@ const FlexboxInfo = () => (
     </>
 )
 
-export default FlexboxInfo
+export default Experience

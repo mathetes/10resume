@@ -1,5 +1,79 @@
+@font-face {
+  font-family:"Poppins-Black";
+  src:url("../../public/assets/fonts/poppins/Poppins-Black.ttf");
+  }
+  @font-face {
+  font-family:"Poppins-Blackltalic";
+  src:url("../../public/assets/fonts/poppins/Poppins-BlackItalic.ttf");
+  }
+  @font-face {
+  font-family:"Poppins-Bold";
+  src:url("../../public/assets/fonts/poppins/Poppins-Bold.ttf");
+  }
+  @font-face {
+  font-family:"Poppins-Boldltalic";
+  src:url("../../public/assets/fonts/poppins/Poppins-BoldItalic.ttf");
+  }
+  @font-face {
+  font-family:"Poppins-ExtraBold";
+  src:url("../../public/assets/fonts/poppins/Poppins-ExtraBold.ttf");
+  }
+  @font-face {
+  font-family:"Poppins-ExtraBoldltalic";
+  src:url("../../public/assets/fonts/poppins/Poppins-ExtraBoldItalic.ttf");
+  }
+  @font-face {
+  font-family:"Poppins-ExtraLight";
+  src:url("../../public/assets/fonts/poppins/Poppins-ExtraLight.ttf");
+  }
+  @font-face {
+  font-family:"Poppins-ExtraLightltalic";
+  src:url("../../public/assets/fonts/poppins/Poppins-ExtraLightItalic.ttf");
+  }
+  @font-face {
+  font-family:"Poppins-ltalic";
+  src:url("../../public/assets/fonts/poppins/Poppins-Italic.ttf");
+  }
+  @font-face {
+  font-family:"Poppins-Light";
+  src:url("../../public/assets/fonts/poppins/Poppins-Light.ttf");
+  }
+  @font-face {
+  font-family:"Poppins-Lightltalic";
+  src:url("../../public/assets/fonts/poppins/Poppins-LightItalic.ttf");
+  }
+  @font-face {
+  font-family:"Poppins-Medium";
+  src:url("../../public/assets/fonts/poppins/Poppins-Medium.ttf");
+  }
+  @font-face {
+  font-family:"Poppins-Mediumltalic";
+  src:url("../../public/assets/fonts/poppins/Poppins-MediumItalic.ttf");
+  }
+  @font-face {
+  font-family:"Poppins-Regular";
+  src:url("../../public/assets/fonts/poppins/Poppins-Regular.ttf");
+  }
+  @font-face {
+  font-family:"Poppins-SemiBold";
+  src:url("../../public/assets/fonts/poppins/Poppins-SemiBold.ttf");
+  }
+  @font-face {
+  font-family:"Poppins-SemiBoldltalic";
+  src:url("../../public/assets/fonts/poppins/Poppins-SemiBoldItalic.ttf");
+  }
+  @font-face {
+  font-family:"Poppins-Thin";
+  src:url("../../public/assets/fonts/poppins/Poppins-Thin.ttf");
+  }
+  @font-face {
+  font-family:"Poppins-Thinltalic";
+  src:url("../../public/assets/fonts/poppins/Poppins-ThinItalic.ttf");
+  }
+
 body {
   background-color: #fff;
+  font-family:"Poppins-Regular";
 }
 .d-flex h2,
 p {

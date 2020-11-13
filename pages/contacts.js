@@ -9,7 +9,7 @@ export default function Contacts() {
         <title>Контакты - Роман Аяпергенов - Резюме 10. Построенное на NEXT.JS</title>
       </Head>
       <Layout>
-        <h2>Contacts</h2>
+        <h2>Get in Touch</h2>
       </Layout>
     </div>
   );
