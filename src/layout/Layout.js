@@ -1,21 +1,24 @@
 import Sidebar from './Sidebar';
-import styled from "styled-components";
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import NavMenu from '../components/NavMenu/NavMenu';
 
-export default function Layout ({ children, ...props}) {
+function Layout ({ children, ...props}) {
     
-
-    const WrapperApp = styled.section`
-        display: grid;
-        grid-template-columns: 650px 1fr;
-        grid-gap: 16px;
-        max-width: 60%;
-        margin: 10% auto;
-        `
-    return (
-        <WrapperApp>            
-                <Sidebar />
-                {children}
-        </WrapperApp>
-    )
+  return (
+    <MDBContainer>
+      <MDBRow>
+        <MDBCol size="1" md="1">
+          <NavMenu />
+        </MDBCol>
+        <MDBCol size="4" md="4">
+            <Sidebar />            
+        </MDBCol>
+        <MDBCol size="7" md="7">
+          {children}
+        </MDBCol>
+      </MDBRow>
+    </MDBContainer>
+  );
 }
 
+export default Layout;

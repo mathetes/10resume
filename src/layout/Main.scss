@@ -75,10 +75,6 @@ body {
   background-color: #fff;
   font-family:"Poppins-Regular";
 }
-.d-flex h2,
-p {
-  padding-left: 1rem;
-}
 
 .align-items-stretch {
   -ms-flex-align: stretch !important;
@@ -91,4 +87,33 @@ p {
 
 .p-2 {
   width: 50%;
+}
+
+.title {
+  margin: 0;
+  padding: 0 0 30px;
+  position: relative;
+  font-size: 20px;
+  color: #323232;
+  line-height: 21px;
+  min-height: 51px;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.title:before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  background: -moz-linear-gradient(-45deg,rgba(46,202,127,.15) 0%,rgba(46,202,127,.01) 100%);
+  background: -webkit-linear-gradient(-45deg,rgba(46,202,127,.15) 0%,rgba(46,202,127,.01) 100%);
+  background: linear-gradient(135deg,rgba(46,202,127,.15) 0%,rgba(46,202,127,.01) 100%);
+  z-index: -1;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -khtml-border-radius: 30px;
 }

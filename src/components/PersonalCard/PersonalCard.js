@@ -13,8 +13,6 @@ import {
 
 const PersonalCard = () => {
   return (
-    <MDBRow>
-      <MDBCol md="4">
         <MDBCard narrow>
           <MDBView cascade>
             <MDBCardImage
@@ -23,7 +21,7 @@ const PersonalCard = () => {
               className="card-img-top"
               src="https://hsto.org/getpro/moikrug/uploads/user/929/774/969/avatar/3fc8edb4202c4f5c67d3eaf4efc9b641.jpg"
               alt="avatar"
-              style={{ width: "500px" }}
+              style={{ width: "100%" }}
             />
           </MDBView>
 
@@ -32,7 +30,7 @@ const PersonalCard = () => {
               <strong>Roman Ayapergenov</strong>
             </MDBCardTitle>
 
-            <p className="font-weight-bold blue-text">Wev developer</p>
+            <p className="font-weight-bold position-text">Web developer</p>
 
             <MDBCardText>
               Sed ut perspiciatis unde omnis iste natus sit voluptatem
@@ -54,8 +52,6 @@ const PersonalCard = () => {
             </MDBCol>
           </MDBCardBody>
         </MDBCard>
-      </MDBCol>
-    </MDBRow>
   );
 };
 

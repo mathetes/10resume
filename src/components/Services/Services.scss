@@ -1,0 +1,22 @@
+.block-services {
+    margin-top: 30px;
+}
+
+.icon .ion,  .icon .fab,  .icon .fas,  .icon .fa {
+    font-size: 28px;
+    display: block;
+    line-height: 60px;
+    background: linear-gradient(135deg,rgba(76,119,83,.15) 0%,rgba(76,119,83,.01) 100%);
+}
+.icon {
+    color: #4c7753;
+    font-family: FontAwesome;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.fa-html5:before {
+    content: "\f13b";
+}

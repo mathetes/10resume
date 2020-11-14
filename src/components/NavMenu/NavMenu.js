@@ -3,26 +3,50 @@ import { MDBNav, MDBNavItem, MDBNavLink } from "mdbreact";
 
 const NavMenu = () => (
     <>
-        <h2>
+        <div className="one-page-menu-item">
         <Link href="/">
-            <a>Home</a>
+        <p className="icon ion-ios-person">
+            <i className="fas fa-user-check"></i>
+            <span className="navmenu-item">
+                About
+            </span>
+        </p>            
         </Link>
-        </h2>
-        <h2>
+        </div>
+
+        <div className="one-page-menu-item">
         <Link href="/resume">
-            <a>Resume</a>
+        <p className="icon ion-ios-person">
+        <i className="fas fab fa-black-tie"></i>
+            <span className="navmenu-item">
+                Resume
+            </span>
+        </p>            
         </Link>
-        </h2>
-        <h2>
+        </div>
+        
+        <div className="one-page-menu-item">
         <Link href="/portfolio">
-            <a>Portfolio</a>
+        <p className="icon ion-ios-person">
+        <i className="fas fa-briefcase"></i>
+            <span className="navmenu-item">
+                Portfolio
+            </span>
+        </p>            
         </Link>
-        </h2>
-        <h2>
+        </div>
+        
+        
+        <div className="one-page-menu-item">
         <Link href="/contacts">
-            <a>Contacts</a>
+        <p className="icon ion-ios-person">
+        <i className="fas fa-address-card"></i>
+            <span className="navmenu-item">
+                Contacts
+            </span>
+        </p>            
         </Link>
-        </h2>
+        </div>
 
     </>
 );

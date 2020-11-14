@@ -10,10 +10,10 @@ export default function Resume() {
   return (
     <div>
       <Head>
-        <title>Резюме 10. Построенное на NEXT.JS</title>
+        <title>Resume 10. Built on NEXT.JS</title>
       </Head>
       <Layout>
-        <h1>My resume</h1>
+        <h2 className="title">My resume</h2>
         <Education />
         <Experience />
         <Skills />

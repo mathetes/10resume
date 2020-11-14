@@ -1,10 +1,12 @@
 import FlexboxInfo from "../components/Flexbox/Flexbox";
+import Aboutme from "../components/Aboutme/Aboutme";
+import Services from "../components/Services/Services";
 
 export default function Main() {
   return (
     <div className="main-block">
-      <h1>About me</h1>
-      <FlexboxInfo />
+      <Aboutme />
+      <Services />
     </div>
   );
 }

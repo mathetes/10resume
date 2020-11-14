@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Layout from '../src/layout/Layout';
+import Projects from '../src/components/Projects/Projects';
 
 
 export default function Portfolio() {
@@ -10,7 +11,7 @@ export default function Portfolio() {
         <title>Резюме 10. Построенное на NEXT.JS</title>
       </Head>
       <Layout>
-        <h2>My portfolio</h2>
+        <Projects />
       </Layout>
     </div>
   );
