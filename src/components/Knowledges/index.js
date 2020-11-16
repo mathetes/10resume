@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const Knowledges = () => (
+export const Knowledges = () => (
     <>
         <div className="container z-depth-1 my-5 py-5">
 
@@ -36,4 +36,3 @@ const Knowledges = () => (
     </>
 )
 
-export default Knowledges;

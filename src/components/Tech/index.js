@@ -1,4 +1,4 @@
-const Tech = () => (
+export const Tech = () => (
     <>
 <div className="container my-5 pt-5 pb-3 px-4 z-depth-1">
 
@@ -56,5 +56,3 @@ const Tech = () => (
 
 </>
 )
-
-export default Tech;

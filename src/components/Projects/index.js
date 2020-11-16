@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const Projects = () => (
+export const Projects = () => (
     <>
         <div className="container my-5">
 
@@ -153,7 +153,7 @@ const Projects = () => (
 
                                 <h4 className="card-title">Cinema catalog</h4>
                                 <hr />
-                                <p className="card-text text-muted font-weight-light">Catalog of movies built with React.js. 
+                                <p className="card-text text-muted font-weight-light">Catalog of movies built with React.js.
                                 <Link href="https://codesandbox.io/s/reactwarrior-1u2mr">Cinema</Link>
                                 </p>
 
@@ -170,5 +170,3 @@ const Projects = () => (
         </div>
     </>
 )
-
-export default Projects;

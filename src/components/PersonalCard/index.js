@@ -11,7 +11,7 @@ import {
   MDBIcon,
 } from "mdbreact";
 
-const PersonalCard = () => {
+export const PersonalCard = () => {
   return (
         <MDBCard narrow>
           <MDBView cascade>
@@ -54,5 +54,3 @@ const PersonalCard = () => {
         </MDBCard>
   );
 };
-
-export default PersonalCard;

@@ -1,6 +1,6 @@
 import Sidebar from './Sidebar';
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
-import NavMenu from '../components/NavMenu/NavMenu';
+import {NavMenu} from '../components/NavMenu/';
 
 function Layout ({ children, ...props}) {
     

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { MDBNav, MDBNavItem, MDBNavLink } from "mdbreact";
 
-const NavMenu = () => (
+export const NavMenu = () => (
     <>
         <div className="one-page-menu-item">
         <Link href="/">
@@ -50,5 +50,3 @@ const NavMenu = () => (
 
     </>
 );
-
-export default NavMenu;

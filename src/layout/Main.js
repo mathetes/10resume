@@ -1,6 +1,5 @@
-import FlexboxInfo from "../components/Flexbox/Flexbox";
-import Aboutme from "../components/Aboutme/Aboutme";
-import Services from "../components/Services/Services";
+import {Aboutme} from "../components/Aboutme/";
+import {Services} from "../components/Services/";
 
 export default function Main() {
   return (

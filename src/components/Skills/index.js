@@ -1,4 +1,4 @@
-const Skills = () => (
+export const Skills = () => (
     <>
         <div className="container my-5">
 
@@ -57,5 +57,3 @@ const Skills = () => (
         </div>
     </>
 )
-
-export default Skills

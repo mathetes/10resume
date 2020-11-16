@@ -1,6 +1,7 @@
-const Aboutme = () => (
+export const Aboutme = () => (
     <>
-        <h2 className="title">About me</h2>
+        <h3 className="font-weight-bold text-center dark-grey-text pb-2">About me</h3>
+            <hr className="w-header my-4" />
         <p>Hello! I’m Roman Ayapergenov. Back-end & Frond-end developer from RUSSIA, Novosibirsk. 
         I have rich experience in Javascript, also I am good at React.js.</p>
         <div className="info-list">
@@ -14,5 +15,5 @@ const Aboutme = () => (
     </>
 )
 
-export default Aboutme;
+
 

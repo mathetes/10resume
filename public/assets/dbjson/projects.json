@@ -1,0 +1,38 @@
+const projects = [
+    {
+    "name": "Hotel 'Cristall'",
+    "imgurl": "./images/0",
+    "desription": "This project was build with CMS Wordress in 2018.",
+    "link": "cristall.online"
+    },
+    {
+    "name": "School 'Unity'",
+    "imgurl": "./images/0",
+    "desription": "Children school for additional education.",
+    "link": "www.school-unity.ru"
+    },
+    {
+    "name": "Consumer goods",
+    "imgurl": "./images/0",
+    "desription": "Catalog of consumer goods. Was build in 2020 with help of Bootstrap 4 & Webpack.",
+    "link": "tnp.nziv.ru"
+    },
+    {
+    "name": "Weather forecast app",
+    "imgurl": "./images/0",
+    "desription": "Learning weather forecast application",
+    "link": "Weather-Forecast"
+    },
+    {
+    "name": "Laximo task",
+    "imgurl": "./images/0",
+    "desription": "Layout table for company 'Laximo'.",
+    "link": "Laximo"
+    },
+    {
+    "name": "Cinema catalog",
+    "imgurl": "./images/0",
+    "desription": "Catalog of movies built with React.js.",
+    "link": "https://codesandbox.io/s/dreamy-black-jcudg"
+    },
+]

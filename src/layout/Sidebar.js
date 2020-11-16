@@ -1,8 +1,8 @@
-import PersonalCard from '../components/PersonalCard/PersonalCard';
+import { PersonalCard } from '../components/PersonalCard/';
 
 export default function Sidebar() {
   return (
-    <sidebar className="sidebar">      
+    <sidebar className="sidebar">
       <PersonalCard />
     </sidebar>
   );

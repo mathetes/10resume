@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Layout from '../src/layout/Layout';
-import Projects from '../src/components/Projects/Projects';
+import {Projects} from '../src/components/Projects/';
 
 
 export default function Portfolio() {

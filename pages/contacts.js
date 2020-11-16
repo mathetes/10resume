@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Layout from '../src/layout/Layout';
-import Feedback from '../src/components/Feedback/Feedback';
+import {Feedback} from '../src/components/Feedback/';
 
 export default function Contacts() {
   
