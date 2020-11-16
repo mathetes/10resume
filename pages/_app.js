@@ -6,6 +6,7 @@ import "../src/components/PersonalCard/PersonalCard.scss";
 import "../src/components/NavMenu/NavMenu.scss";
 import "../src/components/Aboutme/Aboutme.scss";
 import "../src/components/Services/Services.scss";
+import "../src/components/Knowledges/Knowledges.scss";
 
 export default function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

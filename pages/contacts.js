@@ -7,7 +7,7 @@ export default function Contacts() {
   return (
     <div>
       <Head>
-        <title>Контакты - Роман Аяпергенов - Резюме 10. Построенное на NEXT.JS</title>
+        <title>Contacts - Roman Ayapergenov. Resume built with NEXT.JS</title>
       </Head>
       <Layout>
         <Feedback />
