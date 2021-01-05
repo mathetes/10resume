@@ -1,172 +1,108 @@
-import Link from 'next/link';
+import Link from "next/link";
+
+const projects = [
+  {
+    id: 1,
+    name: "Hotel 'Cristall'",
+    desription: "This project was build with ",
+    platform: "CMS Wordress",
+    year: 2018,
+    link: "http://cristall.online/",
+    imgurl: "cristall.jpg",
+  },
+
+  {
+    id: 2,
+    name: "School 'Unity'",
+    desription: "Children school for additional education.",
+    platform: "Joomla 3",
+    year: 2017,
+    link: "http://www.school-unity.ru/",
+    imgurl: "unity.jpg",
+  },
+
+  {
+    id: 3,
+    name: "Consumer goods",
+    desription: "Catalog of consumer goods. Was build in",
+    platform: "with help of Bootstrap 4 & Webpack.",
+    year: 2020,
+    link: "http://tnp.nziv.ru/",
+    imgurl: "tnp2.jpg",
+  },
+
+  {
+    id: 4,
+    name: "Weather forecast app",
+    desription: "Learning weather forecast application",
+    platform: "Create-react-app",
+    year: 2020,
+    link: "https://codesandbox.io/s/weather-app-o0z4f",
+    imgurl: "weather.jpg",
+  },
+
+  {
+    id: 5,
+    name: "Laximo task",
+    desription: "Layout table for company 'Laximo'",
+    platform: "HTML & CSS layout",
+    year: 2016,
+    link: "https://codesandbox.io/s/laximo-task-bivpq",
+    imgurl: "laximo.jpg",
+  },
+
+  {
+    id: 6,
+    name: "Cinema catalog",
+    desription: "Catalog of movies built with React.js.",
+    platform: "Create-react-app",
+    year: 2016,
+    link: "https://codesandbox.io/s/reactwarrior-1u2mr",
+    imgurl: "movies.jpg",
+  },
+];
+
+const listProjects = projects.map((project) => (
+  <div className="col-md-6 mb-4">
+    <div className="card">
+      <div className="view overlay">
+      <img 
+            className="card-img-top"
+            src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(41).jpg" 
+            alt="Card image cap" 
+        />
+        <a>
+          <div className="mask rgba-white-slight"></div>
+        </a>
+      </div>
+
+      <a className="btn-floating btn-action ml-auto mr-4 mdb-color">
+        <i className="fas fa-chevron-right pl-1"></i>
+      </a>
+
+      <div className="card-body">
+        <h4 className="card-title">{project.name}</h4>
+        <hr />
+        <p className="card-text text-muted font-weight-light">
+          {project.desription} {project.year}
+          <Link href={project.link}>{project.link}</Link>
+        </p>
+      </div>
+    </div>
+  </div>
+));
 
 export const Projects = () => (
-    <>
-        <div className="container my-5">
+  <>
+    <div className="container my-5">
+      <section className="dark-grey-text">
+        <h3 className="text-center font-weight-bold mb-4 pb-2">My projects</h3>
+        <p className="text-center text-muted w-responsive mx-auto mb-5">
+          My training and work projects.
+        </p>
 
-
-            <section className="dark-grey-text">
-
-                <h3 className="text-center font-weight-bold mb-4 pb-2">My projects</h3>
-                <p className="text-center text-muted w-responsive mx-auto mb-5">My training and work projects.</p>
-
-                <div className="row">
-
-                    <div className="col-md-6 mb-4">
-
-                        <div className="card">
-                            <div className="view overlay">
-                                <img className="card-img-top" src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(147).jpg" alt="Card image cap" />
-                                <a>
-                                    <div className="mask rgba-white-slight"></div>
-                                </a>
-                            </div>
-
-                            <a className="btn-floating btn-action ml-auto mr-4 mdb-color"><i className="fas fa-chevron-right pl-1"></i></a>
-
-                            <div className="card-body">
-
-                                <h4 className="card-title">Hotel "Cristall"</h4>
-                                <hr />
-                                <p className="card-text text-muted font-weight-light">This project was build with CMS Wordress in 2018.
-                                <Link href="http://cristall.online/">cristall.online</Link>
-                                </p>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div className="col-md-6 mb-4">
-
-                        <div className="card">
-                            <div className="view overlay">
-                                <img className="card-img-top" src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(41).jpg" alt="Card image cap" />
-                                <a>
-                                    <div className="mask rgba-white-slight"></div>
-                                </a>
-                            </div>
-
-                            <a className="btn-floating btn-action ml-auto mr-4 mdb-color"><i className="fas fa-chevron-right pl-1"></i></a>
-
-                            <div className="card-body">
-
-                                <h4 className="card-title">School "Unity"</h4>
-                                <hr />
-                                <p className="card-text text-muted font-weight-light">.Children school for additional education.
-                                <Link href="http://www.school-unity.ru/">www.school-unity.ru</Link>
-                                </p>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div className="col-md-6 mb-4">
-
-                        <div className="card">
-                            <div className="view overlay">
-                                <img className="card-img-top" src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(41).jpg" alt="Card image cap" />
-                                <a>
-                                    <div className="mask rgba-white-slight"></div>
-                                </a>
-                            </div>
-
-                            <a className="btn-floating btn-action ml-auto mr-4 mdb-color"><i className="fas fa-chevron-right pl-1"></i></a>
-
-                            <div className="card-body">
-
-                                <h4 className="card-title">Consumer goods</h4>
-                                <hr />
-                                <p className="card-text text-muted font-weight-light">Catalog of consumer goods. Was build in 2020 with help of Bootstrap 4 & Webpack.
-                                <Link href="http://tnp.nziv.ru/">tnp.nziv.ru</Link>
-                                </p>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div className="col-md-6 mb-4">
-
-                        <div className="card">
-                            <div className="view overlay">
-                                <img className="card-img-top" src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(41).jpg" alt="Card image cap" />
-                                <a>
-                                    <div className="mask rgba-white-slight"></div>
-                                </a>
-                            </div>
-
-                            <a className="btn-floating btn-action ml-auto mr-4 mdb-color"><i className="fas fa-chevron-right pl-1"></i></a>
-
-                            <div className="card-body">
-
-                                <h4 className="card-title">Weather forecast app</h4>
-                                <hr />
-                                <p className="card-text text-muted font-weight-light">Learning weather forecast application
-                                <Link href="https://codesandbox.io/s/weather-app-o0z4f">Weather-Forecast</Link>
-                                </p>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div className="col-md-6 mb-4">
-
-                        <div className="card">
-                            <div className="view overlay">
-                                <img className="card-img-top" src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(41).jpg" alt="Card image cap" />
-                                <a>
-                                    <div className="mask rgba-white-slight"></div>
-                                </a>
-                            </div>
-
-                            <a className="btn-floating btn-action ml-auto mr-4 mdb-color"><i className="fas fa-chevron-right pl-1"></i></a>
-
-                            <div className="card-body">
-
-                                <h4 className="card-title">Laximo task</h4>
-                                <hr />
-                                <p className="card-text text-muted font-weight-light">Layout table for company "Laximo".
-                                <Link href="https://codesandbox.io/s/laximo-task-bivpq">Laximo</Link>
-                                </p>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div className="col-md-6 mb-4">
-
-                        <div className="card">
-                            <div className="view overlay">
-                                <img className="card-img-top" src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(41).jpg" alt="Card image cap" />
-                                <a>
-                                    <div className="mask rgba-white-slight"></div>
-                                </a>
-                            </div>
-
-                            <a className="btn-floating btn-action ml-auto mr-4 mdb-color"><i className="fas fa-chevron-right pl-1"></i></a>
-
-                            <div className="card-body">
-
-                                <h4 className="card-title">Cinema catalog</h4>
-                                <hr />
-                                <p className="card-text text-muted font-weight-light">Catalog of movies built with React.js.
-                                <Link href="https://codesandbox.io/s/reactwarrior-1u2mr">Cinema</Link>
-                                </p>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </section>
-
-
-        </div>
-    </>
-)
+        <div className="row">{listProjects}</div>
+      </section>
+    </div>
+  </>
+);
