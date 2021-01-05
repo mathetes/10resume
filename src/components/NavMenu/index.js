@@ -1,52 +1,42 @@
 import Link from 'next/link'
 import { MDBNav, MDBNavItem, MDBNavLink } from "mdbreact";
 
-export const NavMenu = () => (
-    <>
-        <div className="one-page-menu-item">
-        <Link href="/">
-        <p className="icon ion-ios-person">
-            <i className="fas fa-user-check"></i>
-            <span className="navmenu-item">
-                About
-            </span>
-        </p>            
-        </Link>
-        </div>
+const menu = [
+  {
+    id: 1,
+    link: "/",
+    name: "About",
+    classicon: "fas fa-user-check",
+  },
+  {
+    id: 2,
+    link: "/resume",
+    name: "Resume",
+    classicon: "fas fab fa-black-tie",
+  },
+  {
+    id: 3,
+    link: "/portfolio",
+    name: "Portfolio",
+    classicon: "fas fa-briefcase",
+  },
+  {
+    id: 4,
+    link: "/contacts",
+    name: "Contacts",
+    classicon: "fas fa-address-card",
+  },
+];
 
-        <div className="one-page-menu-item">
-        <Link href="/resume">
-        <p className="icon ion-ios-person">
-        <i className="fas fab fa-black-tie"></i>
-            <span className="navmenu-item">
-                Resume
-            </span>
-        </p>            
-        </Link>
-        </div>
-        
-        <div className="one-page-menu-item">
-        <Link href="/portfolio">
-        <p className="icon ion-ios-person">
-        <i className="fas fa-briefcase"></i>
-            <span className="navmenu-item">
-                Portfolio
-            </span>
-        </p>            
-        </Link>
-        </div>
-        
-        
-        <div className="one-page-menu-item">
-        <Link href="/contacts">
-        <p className="icon ion-ios-person">
-        <i className="fas fa-address-card"></i>
-            <span className="navmenu-item">
-                Contacts
-            </span>
-        </p>            
-        </Link>
-        </div>
+const menuItems = menu.map((item) => (
+  <div className="one-page-menu-item" key={item.id}>
+    <Link href={item.link}>
+      <p className="icon ion-ios-person">
+        <i className={item.classicon}></i>
+        <span className="navmenu-item">{item.name}</span>
+      </p>
+    </Link>
+  </div>
+));
 
-    </>
-);
+export const NavMenu = () => <>{menuItems}</>;
