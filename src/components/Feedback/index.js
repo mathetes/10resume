@@ -1,14 +1,14 @@
 export const Feedback = () => (
 
-  <div class="container my-5">
+  <div className="container my-5">
 
-    <section class="text-center dark-grey-text mb-5">
+    <section className="text-center dark-grey-text mb-5">
 
 
-      <div class="card">
-        <div class="card-body rounded-top border-top p-5">
+      <div className="card">
+        <div className="card-body rounded-top border-top p-5">
 
-          <h3 class="font-weight-bold my-4">Contact Me</h3>
+          <h3 className="font-weight-bold my-4">Contact Me</h3>
 
           <div className="info-list">
             <ul className="info-list-ul">
@@ -19,41 +19,41 @@ export const Feedback = () => (
             </ul>
           </div>
 
-          <form class="mb-4 mx-md-5" action="">
+          <form className="mb-4 mx-md-5" action="">
 
-            <div class="row">
-              <div class="col-md-6 mb-4">
-
-
-                <input type="text" id="name" class="form-control" placeholder="Name" />
-
-              </div>
-              <div class="col-md-6 mb-4">
+            <div className="row">
+              <div className="col-md-6 mb-4">
 
 
-                <input type="email" id="email" class="form-control" placeholder="Email" />
+                <input type="text" id="name" className="form-control" placeholder="Name" />
 
               </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12 mb-4">
+              <div className="col-md-6 mb-4">
 
 
-                <input type="text" id="subject" class="form-control" placeholder="Subject" />
+                <input type="email" id="email" className="form-control" placeholder="Email" />
 
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-md-12">
+            <div className="row">
+              <div className="col-md-12 mb-4">
 
-                <div class="form-group mb-4">
-                  <textarea class="form-control rounded" id="message" rows="3" placeholder="How can we help?"></textarea>
+
+                <input type="text" id="subject" className="form-control" placeholder="Subject" />
+
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-md-12">
+
+                <div className="form-group mb-4">
+                  <textarea className="form-control rounded" id="message" rows="3" placeholder="How can we help?"></textarea>
                 </div>
 
-                <div class="text-center">
-                  <button type="submit" class="btn btn-info btn-md">Submit</button>
+                <div className="text-center">
+                  <button type="submit" className="btn btn-info btn-md">Submit</button>
                 </div>
 
               </div>

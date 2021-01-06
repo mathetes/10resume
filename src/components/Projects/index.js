@@ -69,7 +69,7 @@ const listProjects = projects.map((project) => (
       <div className="view overlay">
       <img 
             className="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(41).jpg" 
+            src={require(`../../../public/assets/images/${project.imgurl}`)}
             alt="Card image cap" 
         />
         <a>
