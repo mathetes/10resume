@@ -1,19 +1,18 @@
-import Sidebar from './Sidebar';
+import Sidebar from "./Sidebar";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
-import {NavMenu} from '../components/NavMenu/';
+import { NavMenu } from "../components/NavMenu/";
 
-function Layout ({ children, ...props}) {
-    
+function Layout({ children, ...props }) {
   return (
-    <MDBContainer>
+    <MDBContainer className="wrapper-app">
       <MDBRow>
-        <MDBCol size="1" md="1">
+        <MDBCol size="12" sm="12" md="2" xl="1" className="navmenu-mobile">
           <NavMenu />
         </MDBCol>
-        <MDBCol size="4" md="4">
-            <Sidebar />            
+        <MDBCol size="12" sm="12" md="10" xl="4">
+          <Sidebar />
         </MDBCol>
-        <MDBCol size="7" md="7">
+        <MDBCol size="12" sm="12" md="12" xl="7">
           {children}
         </MDBCol>
       </MDBRow>

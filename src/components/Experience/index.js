@@ -38,6 +38,7 @@ const listItems = data.map((item) => (
     <div className="col-md-6">
       <p className="text-muted mb-5 pb-2">
         {item.position}
+        <br />
         <Link href={item.link}>{item.link}</Link>
       </p>
     </div>
