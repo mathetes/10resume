@@ -99,7 +99,7 @@ const listProjects = projects.map((project) => (
 
 export const Projects = () => (
   <>
-    <div className="container my-5">
+    <div className="container">
       <section className="dark-grey-text">
         <h3 className="text-center font-weight-bold mb-4 pb-2">My projects</h3>
         <p className="text-center text-muted w-responsive mx-auto mb-5">

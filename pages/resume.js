@@ -1,13 +1,9 @@
 import Head from "next/head";
-import Layout from '../src/layout/Layout';
-import {Education} from '../src/components/Education/';
-import {Experience} from '../src/components/Experience/';
-import {Skills} from '../src/components/Skills/';
-import {Tech} from '../src/components/Tech/';
-
+import Layout from "../src/layout/Layout";
+import { Education } from "../src/components/Education/";
+import { Experience } from "../src/components/Experience/";
 
 export default function Resume() {
-  
   return (
     <div>
       <Head>
@@ -16,8 +12,6 @@ export default function Resume() {
       <Layout>
         <Education />
         <Experience />
-        <Skills />
-        <Tech />
       </Layout>
     </div>
   );

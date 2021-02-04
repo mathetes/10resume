@@ -1,5 +1,5 @@
 export const Feedback = () => (
-  <div className="container my-5">
+  <div className="container">
     <section className="text-center dark-grey-text mb-5">
       <div className="card">
         <div className="card-body rounded-top border-top p-5">

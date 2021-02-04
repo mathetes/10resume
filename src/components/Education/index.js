@@ -34,7 +34,7 @@ const listItems = data.map((item) => (
 
 export const Education = (data) => (
   <>
-    <div className="container z-depth-1 my-5 py-5">
+    <div className="container z-depth-1 py-5">
       <section>
         <h3 className="font-weight-bold text-center dark-grey-text pb-2">
           Education
